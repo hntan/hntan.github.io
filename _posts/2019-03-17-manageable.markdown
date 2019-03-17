@@ -10,4 +10,4 @@ To contribute, please vist [this repo][app-link] for more information.
 
 ![Mageble](/../images/magable.jpg)
 
-[app-link] https://github.com/hntan/manageable
+[app-link]: https://github.com/hntan/manageable

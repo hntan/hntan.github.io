@@ -1,18 +1,27 @@
 ---
 layout: page
-title: About
+title: My Porforlio
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Ho Nhat Tan
+A software developer, a leaner, and becoming thinker
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Currently
+Senior java developer at Zamo
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+### Specialized in
+Develop backend services for interprise softwares.
+
+### Learning interest
+Java, Spring framework, Flutter app development.
+
+### Pet projects
+
+#### Manageable
+Life is difficult, this app might make it a little bit easier.
 
 
-[jekyll-organization]: https://github.com/jekyll
+## Education
+`2008-2012`
+__University of Natural Sciences, HCMC__
