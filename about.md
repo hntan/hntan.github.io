@@ -11,7 +11,7 @@ A software developer, a leaner, and becoming thinker
 Senior java developer at Zamo
 
 ### Specialized in
-Develop backend services for interprise softwares.
+Develop backend services for enterprises.
 
 ### Learning interest
 Java, Spring framework, Flutter app development.
