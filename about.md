@@ -1,27 +1,6 @@
 ---
-layout: page
-title: My Porforlio
+layout: home
+title: Blogs
 permalink: /about/
 ---
 
-# Ho Nhat Tan
-A software developer, a leaner, and becoming thinker
-
-## Currently
-Senior java developer at Zamo
-
-### Specialized in
-Develop backend services for enterprises.
-
-### Learning interest
-Java, Spring framework, Flutter app development.
-
-### Pet projects
-
-#### Manageable
-Life is difficult, this app might make it a little bit easier.
-
-
-## Education
-`2008-2012`
-__University of Natural Sciences, HCMC__
