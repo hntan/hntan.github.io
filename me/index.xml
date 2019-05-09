@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tan Ho</title>
+    <link>http://honhattan.net/me/</link>
+    <description>Recent content on Tan Ho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 May 2019 17:38:59 +0700</lastBuildDate>
+    
+	<atom:link href="http://honhattan.net/me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://honhattan.net/me/about/</link>
+      <pubDate>Sun, 05 May 2019 17:38:59 +0700</pubDate>
+      
+      <guid>http://honhattan.net/me/about/</guid>
+      <description>A developer with experience in building intelligent &amp;amp; scalable applications using Java/JavaEE/Spring, Python.
+Mobile development learner: building an application with flutter. Python learner
+Hire me?</description>
+    </item>
+    
+    <item>
+      <title>Hire Me</title>
+      <link>http://honhattan.net/me/hire/</link>
+      <pubDate>Sun, 05 May 2019 17:38:59 +0700</pubDate>
+      
+      <guid>http://honhattan.net/me/hire/</guid>
+      <description>I&amp;rsquo;m looking for a remote full time job as Java Backend Engineer.
+You can view my CV online here.
+Drop me email via honhattan90@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>My CV</title>
+      <link>http://honhattan.net/me/cv/</link>
+      <pubDate>Sun, 05 May 2019 17:38:59 +0700</pubDate>
+      
+      <guid>http://honhattan.net/me/cv/</guid>
+      <description>Education  2008 - 2012 BSc, Information Technology; University of Natural Sciences, HCMC  Minor: Software Engineering   Professional Summary  Hands on more than 7 years&amp;rsquo;s of experience in java programming language and its related technologies like java ee, spring framework, restful web services. Have strong background in programming, software analysis and design. Have experience on different software domains like mobile payment, uberization, e-commerce. Critical thinking, have ability to think different solutions and produce code with a good quality and maintainable.</description>
+    </item>
+    
+  </channel>
+</rss>

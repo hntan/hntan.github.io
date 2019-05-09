@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Tan Ho</title>
+    <link>http://honhattan.net/tags/</link>
+    <description>Recent content in Tags on Tan Ho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 May 2019 08:35:59 +0700</lastBuildDate>
+    
+	<atom:link href="http://honhattan.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>flutter</title>
+      <link>http://honhattan.net/tags/flutter/</link>
+      <pubDate>Sat, 04 May 2019 08:35:59 +0700</pubDate>
+      
+      <guid>http://honhattan.net/tags/flutter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>quickstart</title>
+      <link>http://honhattan.net/tags/quickstart/</link>
+      <pubDate>Sat, 04 May 2019 08:35:59 +0700</pubDate>
+      
+      <guid>http://honhattan.net/tags/quickstart/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
