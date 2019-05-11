@@ -4,7 +4,30 @@
   
   <url>
     <loc>http://honhattan.net/</loc>
-    <lastmod>2019-05-05T17:38:59+07:00</lastmod>
+    <lastmod>2019-05-11T19:15:05+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://honhattan.net/newsletter/joe-from-thinkster-2019-05-11/</loc>
+    <lastmod>2019-05-11T19:15:05+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://honhattan.net/newsletter/</loc>
+    <lastmod>2019-05-11T19:15:05+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://honhattan.net/tags/</loc>
+    <lastmod>2019-05-11T19:15:05+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://honhattan.net/tags/thinkster.io/</loc>
+    <lastmod>2019-05-11T19:15:05+07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -67,12 +90,6 @@
   <url>
     <loc>http://honhattan.net/flutter/setup/</loc>
     <lastmod>2019-05-04T08:35:59+07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://honhattan.net/tags/</loc>
-    <lastmod>2019-05-04T08:35:59+07:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
