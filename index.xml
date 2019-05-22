@@ -6,10 +6,33 @@
     <description>Recent content on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 May 2019 19:15:05 +0700</lastBuildDate>
+    <lastBuildDate>Wed, 22 May 2019 22:19:02 +0700</lastBuildDate>
     
 	<atom:link href="http://honhattan.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Man Is Not Our Enemy</title>
+      <link>http://honhattan.net/goodreads/man-is-not-our-enemy/</link>
+      <pubDate>Wed, 22 May 2019 22:19:02 +0700</pubDate>
+      
+      <guid>http://honhattan.net/goodreads/man-is-not-our-enemy/</guid>
+      <description>The original post is located at plumvillage.org.
+A poem by Thich Nhat Hanh Promise me,
+promise me this day,
+promise me now,
+while the sun is overhead
+exactly at the zenith,
+promise me:
+Even as they
+strike you down
+with a mountain of hatred and violence;
+even as they step on you and crush you
+like a worm,
+even as they dismember and disembowel you,
+remember brother, remember:
+man is not our enemy.</description>
+    </item>
     
     <item>
       <title>Newsletter - Joe From Thinkster</title>
@@ -20,7 +43,7 @@
       <description>Relationships don&amp;rsquo;t survive because two people don&amp;rsquo;t hurt each other, they survive because two people work to maintain connection. Humans are hard-wired to connect. Just google &amp;ldquo;wired to connect&amp;rdquo; for plenty of literary works on the subject. Connection allows our relationships to survive the inevitable damage we do to each other, whether inadvertent or not.
 &amp;ndash; Joe (joe@thinkster.io) &amp;ndash;
  Below is the whole email got from Joe.
- There is a universal law of being human, and being around other people (whether physically or virtually): you will hurt them.</description>
+There is a universal law of being human, and being around other people (whether physically or virtually): you will hurt them.</description>
     </item>
     
     <item>
@@ -52,24 +75,6 @@ Drop me email via honhattan90@gmail.com</description>
       
       <guid>http://honhattan.net/me/cv/</guid>
       <description>Education  2008 - 2012 BSc, Information Technology; University of Natural Sciences, HCMC  Minor: Software Engineering   Professional Summary  Hands on more than 7 years&amp;rsquo;s of experience in java programming language and its related technologies like java ee, spring framework, restful web services. Have strong background in programming, software analysis and design. Have experience on different software domains like mobile payment, uberization, e-commerce. Critical thinking, have ability to think different solutions and produce code with a good quality and maintainable.</description>
-    </item>
-    
-    <item>
-      <title>Firebase</title>
-      <link>http://honhattan.net/flutter/firebase/</link>
-      <pubDate>Sat, 04 May 2019 18:11:59 +0700</pubDate>
-      
-      <guid>http://honhattan.net/flutter/firebase/</guid>
-      <description>Ahuhu</description>
-    </item>
-    
-    <item>
-      <title>Setup</title>
-      <link>http://honhattan.net/flutter/setup/</link>
-      <pubDate>Sat, 04 May 2019 08:35:59 +0700</pubDate>
-      
-      <guid>http://honhattan.net/flutter/setup/</guid>
-      <description>A hihi from flutter</description>
     </item>
     
   </channel>

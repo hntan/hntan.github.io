@@ -6,28 +6,9 @@
     <description>Recent content in Authors on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 May 2019 18:11:59 +0700</lastBuildDate>
     
 	<atom:link href="http://honhattan.net/authors/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>skipper</title>
-      <link>http://honhattan.net/authors/skipper/</link>
-      <pubDate>Sat, 04 May 2019 18:11:59 +0700</pubDate>
-      
-      <guid>http://honhattan.net/authors/skipper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tanho</title>
-      <link>http://honhattan.net/authors/tanho/</link>
-      <pubDate>Sat, 04 May 2019 08:35:59 +0700</pubDate>
-      
-      <guid>http://honhattan.net/authors/tanho/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
