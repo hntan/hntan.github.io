@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Tan Ho</title>
-    <link>http://honhattan.net/tags/python/</link>
-    <description>Recent content in python on Tan Ho</description>
+    <title>30-day on Tan Ho</title>
+    <link>http://honhattan.net/tags/30-day/</link>
+    <description>Recent content in 30-day on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 25 May 2019 20:08:43 +0700</lastBuildDate>
     
-	<atom:link href="http://honhattan.net/tags/python/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://honhattan.net/tags/30-day/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,6 +21,15 @@
 199  conda create -n myflask python=3.7.3 flask   We create an envionment with flask package and specified python version 3.7.3. If version is not specified, newest version is downloaded.
 Below is what the output will look like on my terminal.
 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251  (base) tan@tan-pc:~/Workspace/py/my-flask-app$ conda create -n myflask python=3.</description>
+    </item>
+    
+    <item>
+      <title>30 Day Challenges: May 25, 2019</title>
+      <link>http://honhattan.net/challenges/30-day-challenges-2019-may-june/</link>
+      <pubDate>Fri, 24 May 2019 23:05:18 +0700</pubDate>
+      
+      <guid>http://honhattan.net/challenges/30-day-challenges-2019-may-june/</guid>
+      <description>I have taken a challenge whereid I will learn a new technology every day and blog it on this page for a month. The challenge started on May 25, 2019.</description>
     </item>
     
   </channel>
