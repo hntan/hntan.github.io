@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>threading on Tan Ho</title>
+    <link>http://honhattan.net/tags/threading/</link>
+    <description>Recent content in threading on Tan Ho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 26 May 2019 17:51:31 +0700</lastBuildDate>
+    
+	<atom:link href="http://honhattan.net/tags/threading/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Day Two - Java Daemon Thread</title>
+      <link>http://honhattan.net/challenges/day-two-java-thread/</link>
+      <pubDate>Sun, 26 May 2019 17:51:31 +0700</pubDate>
+      
+      <guid>http://honhattan.net/challenges/day-two-java-thread/</guid>
+      <description>A daemon thread is a thread that is considered doing some tasks in the background like handling requests or various chronjobs that can exits in an application.
+Properties  It can not prevent JVM from exiting when all user threads finish their executions. It is an utmost low priority thread.  Methods  public final void setDaemon(boolean on): This method is used to mark the current thread as daemon thread or normal thread.</description>
+    </item>
+    
+  </channel>
+</rss>

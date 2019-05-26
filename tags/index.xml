@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 25 May 2019 20:08:43 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 26 May 2019 17:51:31 +0700</lastBuildDate>
     
 	<atom:link href="http://honhattan.net/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>30-day</title>
       <link>http://honhattan.net/tags/30-day/</link>
-      <pubDate>Sat, 25 May 2019 20:08:43 +0700</pubDate>
+      <pubDate>Sun, 26 May 2019 17:51:31 +0700</pubDate>
       
       <guid>http://honhattan.net/tags/30-day/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>concurrency</title>
+      <link>http://honhattan.net/tags/concurrency/</link>
+      <pubDate>Sun, 26 May 2019 17:51:31 +0700</pubDate>
+      
+      <guid>http://honhattan.net/tags/concurrency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>http://honhattan.net/tags/java/</link>
+      <pubDate>Sun, 26 May 2019 17:51:31 +0700</pubDate>
+      
+      <guid>http://honhattan.net/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>threading</title>
+      <link>http://honhattan.net/tags/threading/</link>
+      <pubDate>Sun, 26 May 2019 17:51:31 +0700</pubDate>
+      
+      <guid>http://honhattan.net/tags/threading/</guid>
       <description></description>
     </item>
     
