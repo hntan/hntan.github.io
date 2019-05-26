@@ -18,9 +18,9 @@
       
       <guid>http://honhattan.net/challenges/day-one-flask-framework/</guid>
       <description>Create a new environment for our example.
-199  conda create -n myflask python=3.7.3 flask   We create an envionment with flask package and specified python version 3.7.3. If version is not specified, newest version is downloaded.
+conda create -n myflask python=3.7.3 flask We create an envionment with flask package and specified python version 3.7.3. If version is not specified, newest version is downloaded.
 Below is what the output will look like on my terminal.
-199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251  (base) tan@tan-pc:~/Workspace/py/my-flask-app$ conda create -n myflask python=3.</description>
+(base) tan@tan-pc:~/Workspace/py/my-flask-app$ conda create -n myflask python=3.7.3 flask Collecting package metadata: done Solving environment: done ## Package Plan ## environment location: /home/tan/Workspace/tools/anaconda3/envs/myflask added / updated specs: - flask - python=3.</description>
     </item>
     
     <item>
