@@ -6,10 +6,21 @@
     <description>Recent content in Challenges on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 May 2019 17:51:31 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 27 May 2019 20:09:41 +0700</lastBuildDate>
     
 	<atom:link href="http://honhattan.net/challenges/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Day Three - Learning Go</title>
+      <link>http://honhattan.net/challenges/day-three-golang/</link>
+      <pubDate>Mon, 27 May 2019 20:09:41 +0700</pubDate>
+      
+      <guid>http://honhattan.net/challenges/day-three-golang/</guid>
+      <description>This is the day three of 30-Day Challenges in learning new technoloy everyday.
+The title for today is Learning Go. To be honest I tried to write some line of codes in Go before but my understanding about the language is discreted. So I hope after this day, I will achieve my studing goal in a more systematic way!
+A brief history about Go. Go is statically typed, complied programming language designed at Google by Robert Griesemer (V8 engine, Java Hotspt VM), Rob Pike (Unix Team, UTF-8) and Ken Tompson (Unix).</description>
+    </item>
     
     <item>
       <title>Day Two - Java Daemon Thread</title>
