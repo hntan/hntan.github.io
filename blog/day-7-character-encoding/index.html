@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tan Ho" />
+    <meta name="description" content="Ahihi">
+    <link rel="shortcut icon" type="image/x-icon" href="http://honhattan.net/img/favicon.ico">
+    <title>Character Encoding</title>
+    <meta name="generator" content="Hugo 0.59.1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://honhattan.net/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <link rel="stylesheet" type="text/css" href="http://honhattan.net/css/custom.css">
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://honhattan.net/"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/me/cv">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="http://honhattan.net/blog/day-7-character-encoding/">Character Encoding</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          May 31, 2019
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+<h2 id="what-s-character-encoding">What&rsquo;s character encoding?</h2>
+
+<p>Words and sentenses are created from characters. Those characters are stored in computers in bytes.</p>
+
+<p>Basically, you can visuallize by assuming all characters are stored in computer using a special code. A character encoding provides a key to unlock the code. It is set of a mappings between bytes in computers and the characters in character set.
+Without key, the data looks like garbage.</p>
+
+<h2 id="unicode">Unicode</h2>
+
+<p>Unicode assigns unique numbers to characters used all over the world. Those numbers are known as code points.</p>
+
+<p>There are over one millions code points in Unicode character set. From U+0000 to U+10FFFF<br />
+* U+0022: <em>&ldquo;</em><br />
+* U+0030: <em>0</em><br />
+* U+0063: <em>C</em><br />
+* U+01A1: <em>ơ</em></p>
+
+<p>Lot of unassigned code points. If Minion language becomes widespead enough at some points, it can easily be added.</p>
+
+<h2 id="encoding">Encoding</h2>
+
+<p>There are many way to represented a code point.</p>
+
+<p>Usually a code point is represented in bytes per the rules of an encoding.</p>
+
+<p>Ex: U+20AC EURO SIGN<br />
+* 0x80: in windows-1252<br />
+* 0xAC 0x20: in utf-16le<br />
+* 0x20 0xAC: in utf-16be<br />
+* 0xE2 0x82 0xAC: in utf-8</p>
+
+<p>Only utf-8, utf-16(both variants) can present all the code points.</p>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>

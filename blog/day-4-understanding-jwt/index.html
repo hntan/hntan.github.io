@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tan Ho" />
+    <meta name="description" content="Ahihi">
+    <link rel="shortcut icon" type="image/x-icon" href="http://honhattan.net/img/favicon.ico">
+    <title>Day Four - Understanding JSON Web Token(JWT)</title>
+    <meta name="generator" content="Hugo 0.59.1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://honhattan.net/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <link rel="stylesheet" type="text/css" href="http://honhattan.net/css/custom.css">
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://honhattan.net/"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/me/cv">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="http://honhattan.net/blog/day-4-understanding-jwt/">Day Four - Understanding JSON Web Token(JWT)</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          May 28, 2019
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+<h2 id="what-is-json-web-token">What is JSON Web Token</h2>
+
+<p>JSON Web Token as known as JWT, is a means of transmitting information between two parties in a compact, verifiable form.</p>
+
+<p>JWT can be signed using a secret (with HMAC algorithm) or a public/private key pair using RSA or ECDSA.</p>
+
+<h2 id="when-to-use-it">When to use it</h2>
+
+<h2 id="what-is-data-structrure-inside-it">What is data structrure inside it.</h2>
+
+<p>In a compact form, a JWT contains three parts, separated by dot ( . ). which are:
+* Header
+* Payload
+* Signature</p>
+
+<h2 id="how-does-it-work">How does it work.</h2>
+
+<p>In authentication, when a use login successfully into an application, a JWT is returned to the client. So when a use need to access a resource, the agent should send JWT to the protected resource server, typically in the Authorization header via Bearer scheme.</p>
+
+<p><code>Authorization: Bearer &lt;JWT&gt;</code></p>
+
+<h2 id="why-to-use-it-over-other-things">Why to use it over other things.</h2>
+
+<ul>
+<li>Lighweight</li>
+<li>Mobile App</li>
+</ul>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>

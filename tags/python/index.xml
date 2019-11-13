@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>python on Tan Ho</title>
@@ -13,10 +13,10 @@
     
     <item>
       <title>Flask Framework</title>
-      <link>http://honhattan.net/challenges/day-1-flask-framework/</link>
+      <link>http://honhattan.net/blog/day-1-flask-framework/</link>
       <pubDate>Sat, 25 May 2019 20:08:43 +0700</pubDate>
       
-      <guid>http://honhattan.net/challenges/day-1-flask-framework/</guid>
+      <guid>http://honhattan.net/blog/day-1-flask-framework/</guid>
       <description>Create a new environment for our example.
 conda create -n myflask python=3.7.3 flask We create an envionment with flask package and specified python version 3.7.3. If version is not specified, newest version is downloaded.
 Below is what the output will look like on my terminal.

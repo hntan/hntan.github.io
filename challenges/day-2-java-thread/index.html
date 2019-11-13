@@ -13,14 +13,14 @@ Properties  It can not prevent JVM from exiting when all user threads finish the
 <meta property='og:site_name' content='Tan Ho'>
 <meta property='og:type' content='article'><meta property='article:section' content='challenges'><meta property='article:tag' content='java'><meta property='article:tag' content='threading'><meta property='article:tag' content='concurrency'><meta property='article:published_time' content='2019-05-26T17:51:31&#43;07:00'/><meta property='article:modified_time' content='2019-05-26T17:51:31&#43;07:00'/><meta name='twitter:card' content='summary'>
 
-<meta name="generator" content="Hugo 0.55.6" />
+<meta name="generator" content="Hugo 0.57.0" />
 
   <title>Java Daemon Thread • Tan Ho</title>
   <link rel='canonical' href='http://honhattan.net/challenges/day-2-java-thread/'>
   
   
   <link rel='icon' href='/favicon.ico'>
-<link rel='stylesheet' href='/assets/css/main.d751652e.css'><link rel='stylesheet' href='/css/custom.css'><style>
+<link rel='stylesheet' href='/assets/css/main.6a060eb7.css'><link rel='stylesheet' href='/css/custom.css'><style>
 :root{--color-accent:#ffcd00;}
 </style>
 
@@ -101,7 +101,7 @@ Properties  It can not prevent JVM from exiting when all user threads finish the
 </span>
 </button>
     <ul><li class='item'>
-        <a href='/'>Home</a>
+        <a href='/'><i class='fa fa-heart'></i>Home</a>
       </li><li class='item'>
         <a href='/me/about/'>About</a>
       </li></ul>
@@ -178,34 +178,34 @@ Properties  It can not prevent JVM from exiting when all user threads finish the
 
 <h3 id="example">Example</h3>
 
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">DaemonThreadDemo</span> <span style="color:#f92672">{</span>
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span><span style="color:#f92672">(</span>String<span style="color:#f92672">[]</span> args<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-    MyDaemonThread myThread <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MyDaemonThread<span style="color:#f92672">();</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#a6e22e">class</span> DaemonThreadDemo {
+  <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">static</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">main</span>(String[] <span style="color:#a6e22e">args</span>) {
+    MyDaemonThread <span style="color:#a6e22e">myThread</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> MyDaemonThread();
 
-    myThread<span style="color:#f92672">.</span><span style="color:#a6e22e">setDaemon</span><span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">);</span>
+    myThread.<span style="color:#a6e22e">setDaemon</span>(<span style="color:#66d9ef">true</span>);
 
-    myThread<span style="color:#f92672">.</span><span style="color:#a6e22e">start</span><span style="color:#f92672">();</span>
+    myThread.<span style="color:#a6e22e">start</span>();
 
-    <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-      Thread<span style="color:#f92672">.</span><span style="color:#a6e22e">sleep</span><span style="color:#f92672">(</span>2000<span style="color:#f92672">);</span>
-    <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>InterruptedException e<span style="color:#f92672">)</span> <span style="color:#f92672">{}</span>
-  <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
+    <span style="color:#66d9ef">try</span> {
+      Thread.<span style="color:#a6e22e">sleep</span>(2000);
+    } <span style="color:#66d9ef">catch</span> (InterruptedException <span style="color:#a6e22e">e</span>) {}
+  }
+}
 
-<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyDaemonThread</span> <span style="color:#66d9ef">extends</span> Thread <span style="color:#f92672">{</span>
-  <span style="color:#a6e22e">@Override</span> <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">run</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">int</span> counter <span style="color:#f92672">=</span> 1<span style="color:#f92672">;</span>
-    <span style="color:#66d9ef">while</span> <span style="color:#f92672">(</span><span style="color:#66d9ef">true</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-      System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Hello from daemon thread. Current counter is &#34;</span> <span style="color:#f92672">+</span> counter<span style="color:#f92672">);</span>
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyDaemonThread</span> <span style="color:#66d9ef">extends</span> <span style="color:#a6e22e">Thread</span> {
+  <span style="color:#a6e22e">@Override</span> <span style="color:#66d9ef">public</span> <span style="color:#a6e22e">void</span> run() {
+    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">counter</span> <span style="color:#f92672">=</span> 1;
+    <span style="color:#66d9ef">while</span> (<span style="color:#66d9ef">true</span>) {
+      System.<span style="color:#a6e22e">out</span>.<span style="color:#a6e22e">println</span>(<span style="color:#e6db74">&#34;Hello from daemon thread. Current counter is &#34;</span> <span style="color:#f92672">+</span> counter);
 
-      <span style="color:#66d9ef">try</span> <span style="color:#f92672">{</span>
-        Thread<span style="color:#f92672">.</span><span style="color:#a6e22e">sleep</span><span style="color:#f92672">(</span>500<span style="color:#f92672">);</span>
-      <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span> <span style="color:#f92672">(</span>InterruptedException e<span style="color:#f92672">)</span> <span style="color:#f92672">{}</span>
+      <span style="color:#66d9ef">try</span> {
+        Thread.<span style="color:#a6e22e">sleep</span>(500);
+      } <span style="color:#66d9ef">catch</span> (InterruptedException <span style="color:#a6e22e">e</span>) {}
 
-      counter <span style="color:#f92672">++;</span>
-    <span style="color:#f92672">}</span>
-  <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span></code></pre></div>
+      counter <span style="color:#f92672">++</span>;
+    }
+  }
+}</code></pre></div>
 
 <h4 id="output">Output.</h4>
 
@@ -321,7 +321,7 @@ BUILD SUCCESSFUL in 2s
     </div>
   </div><script>window.__assets_js_src="/assets/js/"</script>
 
-<script src='/assets/js/main.69694257.js'></script>
+<script src='/assets/js/main.67d669ac.js'></script>
 
 </body>
 

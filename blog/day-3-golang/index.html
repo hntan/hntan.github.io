@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Tan Ho" />
+    <meta name="description" content="Ahihi">
+    <link rel="shortcut icon" type="image/x-icon" href="http://honhattan.net/img/favicon.ico">
+    <title>Learning Go</title>
+    <meta name="generator" content="Hugo 0.59.1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="http://honhattan.net/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" />
+    
+    <link rel="stylesheet" type="text/css" href="http://honhattan.net/css/custom.css">
+    
+    <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    
+  </head>
+
+  <body>
+    <div id="wrap">
+
+      
+      <nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="http://honhattan.net/"><i class="fa fa-home"></i></a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+        <li><a href="/blog/">BLOG</a></li>
+        
+        <li><a href="/me/cv">RESUME</a></li>
+        
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      
+      <div class="container">
+        <div class="blog-post">
+          <h3>
+            <strong><a href="http://honhattan.net/blog/day-3-golang/">Learning Go</a></strong>
+          </h3>
+        </div>
+        <div class="blog-title">
+          <h4>
+          May 27, 2019
+            &nbsp;&nbsp;
+            
+          </h4>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="blogpost">
+              
+
+<!--
+This is the day three of 30-Day Challenges in learning new technoloy everyday.
+
+The title for today is Learning [Go][go-homepage]. To be honest I tried to write some line of codes in Go before but my understanding about the language is discreted. So I hope after this day, I will achieve my studing goal in a more systematic way!
+
+## A brief history about Go.
+-->
+
+<p>Go is statically typed, complied programming language designed at Google by Robert Griesemer (V8 engine, Java Hotspt VM), Rob Pike (Unix Team, UTF-8) and Ken Tompson (Unix).</p>
+
+<p>It&rsquo;s similar to C but memory safety, garbage collection, structral typing, and CSP-type concurrency.</p>
+
+<blockquote>
+<p>Did the C++ committee really believe that what was wrong with C++ was that it didn&rsquo;t have enough features?</p>
+
+<p>&ndash; Rob Pike &ndash;</p>
+
+<p>Robert: Starting point: C, fix some obvious flaws, remove crud, add a few missing features.</p>
+
+<p>Rob: name: &lsquo;go&rsquo;. you can invent reasons for this name but it has nice properties. it&rsquo;s short, easy to type. tools: goc, gol, goa. if there&rsquo;s an interactive debugger/interpreter it could just be called &lsquo;go&rsquo;. the suffix is .go.</p>
+
+<p>Robert Empty interfaces: interface {}. These are implemented by all interfaces, and thus this could take the place of void*.</p>
+</blockquote>
+
+<p>And the end of course it came out quite different from either C or C++.</p>
+
+<p>First, I want to confess that I&rsquo;m borrowing some slides a <a href="https://www.infoq.com/presentations/go-lang-design/">Infoq&rsquo;s representation</a> about Go. I&rsquo;m appologied for not asking permission for using them.</p>
+
+<h2 id="go-characteristics">Go characteristics</h2>
+
+<ul>
+<li>Simple, there are only 25 keywords</li>
+<li>Fast, it runs like C</li>
+<li>Natively compiled</li>
+<li>Statical typeed</li>
+<li>Open source</li>
+<li>Garbage collected</li>
+<li>CSP Concurrency</li>
+<li>Fast compile times</li>
+</ul>
+
+<h2 id="installing-go">Installing Go</h2>
+
+<p><a href="https://golang.org/dl/">Download the archive</a> and extract it to your prefered location.</p>
+
+<p>For me, the location is: <code>$HOME/Workspace/tools/go</code></p>
+
+<p>Export go classpath.
+<code>export PATH=$PATH:$HOME/Workspace/tools/go/bin</code></p>
+
+<p>You also need to create your workspace directory before getting started. To understand more Go workspace, please visit <a href="https://golang.org/doc/code.html">Go workspace</a>.<br />
+If you don&rsquo;t set the workspace path. The default path is <code>$HOME/go</code>.<br />
+For me, my workspace is <code>$HOME/Workspace/go</code>.</p>
+
+<h2 id="getting-started">Getting started</h2>
+
+<h3 id="hello-world">Hello world</h3>
+
+<p>Now we will write our first hello program. Open your terminal and type <code>vim main.go</code>.</p>
+
+<p><em>Note that our main.go file is located at <code>~/Workspace/go/github.com/hntan/hello/main.go</code></em></p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+
+<span style="color:#f92672">import</span> <span style="color:#e6db74">&#34;fmt&#34;</span>
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+        <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#e6db74">&#34;Hello World!&#34;</span>)
+}</code></pre></div>
+
+<p>Run <code>go build</code> common to build the hello program. A executable file will be generated beside the main.go.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tan@tan-pc:~/Workspace/go/src/github.com/hntan/hello$ ll
+total <span style="color:#ae81ff">1968</span>
+drwxr-xr-x <span style="color:#ae81ff">2</span> tan tan    <span style="color:#ae81ff">4096</span> May <span style="color:#ae81ff">27</span> <span style="color:#ae81ff">22</span>:44 ./
+drwxr-xr-x <span style="color:#ae81ff">3</span> tan tan    <span style="color:#ae81ff">4096</span> May <span style="color:#ae81ff">27</span> <span style="color:#ae81ff">22</span>:43 ../
+-rwxr-xr-x <span style="color:#ae81ff">1</span> tan tan <span style="color:#ae81ff">2001583</span> May <span style="color:#ae81ff">27</span> <span style="color:#ae81ff">22</span>:44 hello*
+-rw-r--r-- <span style="color:#ae81ff">1</span> tan tan      <span style="color:#ae81ff">73</span> May <span style="color:#ae81ff">27</span> <span style="color:#ae81ff">22</span>:23 main.go</code></pre></div>
+
+<p>Execute it.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tan@tan-pc:~/Workspace/go/src/github.com/hntan/hello$ ./hello 
+Hello World!</code></pre></div>
+
+<h4 id="import-other-packages-to-our-main-go">Import other packages to our main.go</h4>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">main</span>
+
+<span style="color:#f92672">import</span> (
+        <span style="color:#e6db74">&#34;fmt&#34;</span>
+
+        <span style="color:#e6db74">&#34;github.com/golang/example/stringutil&#34;</span>
+)
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">main</span>() {
+        <span style="color:#a6e22e">str</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;Hello World!&#34;</span>
+        <span style="color:#a6e22e">rStr</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">stringutil</span>.<span style="color:#a6e22e">Reverse</span>(<span style="color:#a6e22e">str</span>)
+
+        <span style="color:#a6e22e">fmt</span>.<span style="color:#a6e22e">Println</span>(<span style="color:#a6e22e">rStr</span>)
+}</code></pre></div>
+
+<p>Build and execute it.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">tan@tan-pc:~/Workspace/go/src/github.com/hntan/hello$ ./hello
+!dlroW olleH</code></pre></div>
+
+<h3 id="arrays-and-slices">Arrays and slices</h3>
+
+<h3 id="interfaces">Interfaces</h3>
+
+<h3 id="pointers">Pointers</h3>
+
+<h3 id="go-channels-and-concurrency">Go channels and concurrency</h3>
+
+              <hr>
+              <div class="related-posts">
+                <h5>Related Posts</h5>
+                
+              </div>
+            </div>
+          </div>
+          <hr>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
