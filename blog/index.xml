@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 31 May 2019 10:09:09 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 02 Jun 2019 08:40:48 +0700</lastBuildDate>
     
 	<atom:link href="http://honhattan.net/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Flutter Introduction</title>
+      <link>http://honhattan.net/blog/day-9-flutter/</link>
+      <pubDate>Sun, 02 Jun 2019 08:40:48 +0700</pubDate>
+      
+      <guid>http://honhattan.net/blog/day-9-flutter/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Character Encoding</title>
@@ -20,6 +29,26 @@
       <description>What&amp;rsquo;s character encoding? Words and sentenses are created from characters. Those characters are stored in computers in bytes.
 Basically, you can visuallize by assuming all characters are stored in computer using a special code. A character encoding provides a key to unlock the code. It is set of a mappings between bytes in computers and the characters in character set. Without key, the data looks like garbage.
 Unicode Unicode assigns unique numbers to characters used all over the world.</description>
+    </item>
+    
+    <item>
+      <title>Day Five - Elasticsearch</title>
+      <link>http://honhattan.net/blog/day-5-elasticsearch/</link>
+      <pubDate>Wed, 29 May 2019 16:41:47 +0700</pubDate>
+      
+      <guid>http://honhattan.net/blog/day-5-elasticsearch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Day Four - Understanding JSON Web Token(JWT)</title>
+      <link>http://honhattan.net/blog/day-4-understanding-jwt/</link>
+      <pubDate>Tue, 28 May 2019 16:40:42 +0700</pubDate>
+      
+      <guid>http://honhattan.net/blog/day-4-understanding-jwt/</guid>
+      <description>What is JSON Web Token JSON Web Token as known as JWT, is a means of transmitting information between two parties in a compact, verifiable form.
+JWT can be signed using a secret (with HMAC algorithm) or a public/private key pair using RSA or ECDSA.
+When to use it What is data structrure inside it. In a compact form, a JWT contains three parts, separated by dot ( . ).</description>
     </item>
     
     <item>
@@ -55,6 +84,15 @@ Properties  It can not prevent JVM from exiting when all user threads finish the
 conda create -n myflask python=3.7.3 flask We create an envionment with flask package and specified python version 3.7.3. If version is not specified, newest version is downloaded.
 Below is what the output will look like on my terminal.
 (base) tan@tan-pc:~/Workspace/py/my-flask-app$ conda create -n myflask python=3.7.3 flask Collecting package metadata: done Solving environment: done ## Package Plan ## environment location: /home/tan/Workspace/tools/anaconda3/envs/myflask added / updated specs: - flask - python=3.</description>
+    </item>
+    
+    <item>
+      <title>30 Day Challenges: May 25, 2019</title>
+      <link>http://honhattan.net/blog/30-day-challenges-2019-may-june/</link>
+      <pubDate>Fri, 24 May 2019 23:05:18 +0700</pubDate>
+      
+      <guid>http://honhattan.net/blog/30-day-challenges-2019-may-june/</guid>
+      <description>I have taken a challenge whereid I will learn a new technology every day and blog it on this page for a month. The challenge started on May 25, 2019.</description>
     </item>
     
   </channel>
