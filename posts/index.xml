@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tan Ho</title>
-    <link>http://hntan.net/</link>
-    <description>Recent content on Tan Ho</description>
+    <title>Posts on Tan Ho</title>
+    <link>http://hntan.net/posts/</link>
+    <description>Recent content in Posts on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2023 18:07:56 +0700</lastBuildDate><atom:link href="http://hntan.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 18:07:56 +0700</lastBuildDate><atom:link href="http://hntan.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First contribution to an open-source project</title>
       <link>http://hntan.net/posts/first-open-source-contribution/</link>
