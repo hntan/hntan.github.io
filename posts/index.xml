@@ -6,16 +6,30 @@
     <description>Recent content in Posts on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2023 18:07:56 +0700</lastBuildDate><atom:link href="http://hntan.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 15:11:55 +0700</lastBuildDate><atom:link href="http://hntan.net/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First contribution to an open-source project</title>
       <link>http://hntan.net/posts/first-open-source-contribution/</link>
-      <pubDate>Sat, 04 Mar 2023 18:07:56 +0700</pubDate>
+      <pubDate>Sat, 18 Mar 2023 15:11:55 +0700</pubDate>
       
       <guid>http://hntan.net/posts/first-open-source-contribution/</guid>
       <description>First contribution to an open-source is the significant milestone in my journey as a software engineer, it&amp;rsquo;s a great way to learn and give back to the community.
 I&amp;rsquo;m currently working for Gridly, which is a content management and localization system. Gridly has a feature called Connector and it uses Airbyte internally for syncing data from other sources to Gridly.
-So I dicided to write Gridly as a source connector, to sync data from Gridly to other destinations.</description>
+So, I decided to write Gridly as a source connector to sync data to other destinations.</description>
+    </item>
+    
+    <item>
+      <title>With the help of ChatGPT, I can now start blogging</title>
+      <link>http://hntan.net/posts/start-to-blog/</link>
+      <pubDate>Sat, 18 Mar 2023 15:11:53 +0700</pubDate>
+      
+      <guid>http://hntan.net/posts/start-to-blog/</guid>
+      <description>I am not proficient in language, including my native Vietnamse, so even after years of learning English, I am still struggling to master it.
+No, the above paragraph is not my orignial one. It&amp;rsquo;s the version from ChatGPT.
+And my second one as well.
+And &amp;hellip;
+But they doesn&amp;rsquo;t matter though, what matters now is that I have decided to start to write a blog.
+And yes, you should probably know why.</description>
     </item>
     
   </channel>
