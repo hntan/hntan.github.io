@@ -5,6 +5,25 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Jun 2023 15:11:53 +0700</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>living</title>
+      <link>/tags/living/</link>
+      <pubDate>Fri, 09 Jun 2023 15:11:53 +0700</pubDate>
+      
+      <guid>/tags/living/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>developer-life</title>
+      <link>/tags/developer-life/</link>
+      <pubDate>Sun, 19 Mar 2023 15:11:55 +0700</pubDate>
+      
+      <guid>/tags/developer-life/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
