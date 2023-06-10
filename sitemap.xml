@@ -20,7 +20,10 @@
     <loc>http://hntan.net/about/</loc>
     <lastmod>2023-03-04T19:14:51+07:00</lastmod>
   </url><url>
-    <loc>http://hntan.net/categories/</loc>
+    <loc>http://hntan.net/about/about/</loc>
+    <lastmod>2023-03-04T19:14:51+07:00</lastmod>
+  </url><url>
+    <loc>http://hntan.net/series/</loc>
   </url><url>
     <loc>http://hntan.net/tags/</loc>
   </url>

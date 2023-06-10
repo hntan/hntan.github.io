@@ -8,18 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Mar 2023 15:11:55 +0700</lastBuildDate><atom:link href="http://hntan.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First contribution to an open-source project</title>
+      <title>First open-source contribution</title>
       <link>http://hntan.net/posts/first-open-source-contribution/</link>
       <pubDate>Sat, 18 Mar 2023 15:11:55 +0700</pubDate>
       
       <guid>http://hntan.net/posts/first-open-source-contribution/</guid>
-      <description>First contribution to an open-source is the significant milestone in my journey as a software engineer, it&amp;rsquo;s a great way to learn and give back to the community.
+      <description>Motivation First contribution to an open-source is the significant milestone in my journey as a software engineer, it&amp;rsquo;s a great way to learn and give back to the community.
 I&amp;rsquo;m currently working for Gridly, which is a content management and localization system. Gridly has a feature called Connector and it uses Airbyte internally for syncing data from other sources to Gridly.
-So, I decided to write Gridly as a source connector to sync data to other destinations.</description>
+Airbyte Gridly connector So, I decided to write Gridly as a source connector to sync data to other destinations.</description>
     </item>
     
     <item>
-      <title>With the help of ChatGPT, I can now start blogging</title>
+      <title>Start to blog</title>
       <link>http://hntan.net/posts/start-to-blog/</link>
       <pubDate>Sat, 18 Mar 2023 15:11:53 +0700</pubDate>
       
@@ -43,10 +43,10 @@ And yes, you should probably know why.</description>
     
     <item>
       <title>About</title>
-      <link>http://hntan.net/about/</link>
+      <link>http://hntan.net/about/about/</link>
       <pubDate>Sat, 04 Mar 2023 19:14:51 +0700</pubDate>
       
-      <guid>http://hntan.net/about/</guid>
+      <guid>http://hntan.net/about/about/</guid>
       <description>Hi, I&amp;rsquo;m Tan Ho, I live in Ho Chi Minh city, Vietnam. My full name in vietnamese is Hồ Nhật Tân. I&amp;rsquo;m principal Software Engineer - Backend at Gridly. I&amp;rsquo;m also a husband, a father of one kid.</description>
     </item>
     
