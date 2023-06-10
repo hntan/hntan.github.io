@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on Tan Ho</title>
-    <link>http://hntan.net/about/</link>
+    <link>/about/</link>
     <description>Recent content in About on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 04 Mar 2023 19:14:51 +0700</lastBuildDate><atom:link href="http://hntan.net/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 19:14:51 +0700</lastBuildDate><atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://hntan.net/about/about/</link>
+      <link>/about/about/</link>
       <pubDate>Sat, 04 Mar 2023 19:14:51 +0700</pubDate>
       
-      <guid>http://hntan.net/about/about/</guid>
+      <guid>/about/about/</guid>
       <description>Hi, I&amp;rsquo;m Tan Ho, I live in Ho Chi Minh city, Vietnam. My full name in vietnamese is Hồ Nhật Tân. I&amp;rsquo;m principal Software Engineer - Backend at Gridly. I&amp;rsquo;m also a husband, a father of one kid.</description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tan Ho</title>
-    <link>http://hntan.net/</link>
+    <link>/</link>
     <description>Recent content on Tan Ho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 18 Mar 2023 15:11:55 +0700</lastBuildDate><atom:link href="http://hntan.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Mar 2023 15:11:55 +0700</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First open-source contribution</title>
-      <link>http://hntan.net/posts/first-open-source-contribution/</link>
+      <link>/posts/first-open-source-contribution/</link>
       <pubDate>Sat, 18 Mar 2023 15:11:55 +0700</pubDate>
       
-      <guid>http://hntan.net/posts/first-open-source-contribution/</guid>
+      <guid>/posts/first-open-source-contribution/</guid>
       <description>Motivation First contribution to an open-source is the significant milestone in my journey as a software engineer, it&amp;rsquo;s a great way to learn and give back to the community.
 I&amp;rsquo;m currently working for Gridly, which is a content management and localization system. Gridly has a feature called Connector and it uses Airbyte internally for syncing data from other sources to Gridly.
 Airbyte Gridly connector So, I decided to write Gridly as a source connector to sync data to other destinations.</description>
@@ -20,10 +20,10 @@ Airbyte Gridly connector So, I decided to write Gridly as a source connector to 
     
     <item>
       <title>Start to blog</title>
-      <link>http://hntan.net/posts/start-to-blog/</link>
+      <link>/posts/start-to-blog/</link>
       <pubDate>Sat, 18 Mar 2023 15:11:53 +0700</pubDate>
       
-      <guid>http://hntan.net/posts/start-to-blog/</guid>
+      <guid>/posts/start-to-blog/</guid>
       <description>I am not proficient in language, including my native Vietnamse, so even after years of learning English, I am still struggling to master it.
 No, the above paragraph is not my orignial one. It&amp;rsquo;s the version from ChatGPT.
 And my second one as well.
@@ -34,19 +34,19 @@ And yes, you should probably know why.</description>
     
     <item>
       <title>Hire Me</title>
-      <link>http://hntan.net/hire-me/</link>
+      <link>/hire-me/</link>
       <pubDate>Sat, 04 Mar 2023 19:32:28 +0700</pubDate>
       
-      <guid>http://hntan.net/hire-me/</guid>
+      <guid>/hire-me/</guid>
       <description>Currently, I works as a full-time employee for Gridly. I&amp;rsquo;m not available for a new opportunity right now. But for my long-term plan, I would love to have a remote job. In case you have one and want to hire me, please check my Linkedin&amp;rsquo;s profile, and my cv.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://hntan.net/about/about/</link>
+      <link>/about/about/</link>
       <pubDate>Sat, 04 Mar 2023 19:14:51 +0700</pubDate>
       
-      <guid>http://hntan.net/about/about/</guid>
+      <guid>/about/about/</guid>
       <description>Hi, I&amp;rsquo;m Tan Ho, I live in Ho Chi Minh city, Vietnam. My full name in vietnamese is Hồ Nhật Tân. I&amp;rsquo;m principal Software Engineer - Backend at Gridly. I&amp;rsquo;m also a husband, a father of one kid.</description>
     </item>
     
