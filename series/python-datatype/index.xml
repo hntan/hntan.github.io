@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Python Datatype on </title>
+    <title>Python Datatype on Tan Ho&#39;s personal website</title>
     <link>/series/python-datatype/</link>
-    <description>Recent content in Python Datatype on </description>
+    <description>Recent content in Python Datatype on Tan Ho&#39;s personal website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <managingEditor>user@example.com (Hugo Author)</managingEditor>
+    <webMaster>user@example.com (Hugo Author)</webMaster>
     <lastBuildDate>Tue, 16 Apr 2024 05:17:19 +0700</lastBuildDate>
     <atom:link href="/series/python-datatype/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python Datatype - Strings</title>
       <link>/posts/python-datatype-strings/</link>
-      <pubDate>Tue, 16 Apr 2024 05:17:19 +0700</pubDate>
+      <pubDate>Tue, 16 Apr 2024 05:17:19 +0700</pubDate><author>user@example.com (Hugo Author)</author>
       <guid>/posts/python-datatype-strings/</guid>
       <description>Strings: The Textual Heart of Python In Python, strings are sequences of characters used to represent text. You can think of them as an ordered collection of letters, numbers, symbols, and spaces. To define a string, you enclose your text within:&#xA;Single quotes, double quotes Python is flexible with strings. You can enclose them in eithers in single quotes &#39; or double quotes &amp;quot;.&#xA;s1 = &amp;#39;Hello world&amp;#39; # Single quotes s2 = &amp;#34;Hello world&amp;#34; # Double quotes The key is to be consistent, but there are times you&amp;rsquo;ll want to include one type of quote within a string enclosed by the other type.</description>
     </item>

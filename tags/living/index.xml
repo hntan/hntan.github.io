@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Living on </title>
+    <title>Living on Tan Ho&#39;s personal website</title>
     <link>/tags/living/</link>
-    <description>Recent content in Living on </description>
+    <description>Recent content in Living on Tan Ho&#39;s personal website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <managingEditor>user@example.com (Hugo Author)</managingEditor>
+    <webMaster>user@example.com (Hugo Author)</webMaster>
     <lastBuildDate>Fri, 09 Jun 2023 15:11:53 +0700</lastBuildDate>
     <atom:link href="/tags/living/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Two worth living places in Vietnam</title>
       <link>/posts/worth-living-place-vn/</link>
-      <pubDate>Fri, 09 Jun 2023 15:11:53 +0700</pubDate>
+      <pubDate>Fri, 09 Jun 2023 15:11:53 +0700</pubDate><author>user@example.com (Hugo Author)</author>
       <guid>/posts/worth-living-place-vn/</guid>
       <description>When considering where to live in Vietnam, it is important to define what makes a place &amp;ldquo;worth living&amp;rdquo;. Nowadays, remote work is more feasible, especially for software programmers like me. So for me, a worth living place is one that is easy to get around, affordable for living, and offers plenty of opportunities to immerse oneself in nature.&#xA;Criteria Walking condition If you love to walk, Vietnam can be challenging place to live.</description>
     </item>

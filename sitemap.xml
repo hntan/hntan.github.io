@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/</loc>
+    <loc>/categories/</loc>
+    <lastmod>2024-05-18T08:43:09+07:00</lastmod>
+  </url><url>
+    <loc>/categories/java/</loc>
     <lastmod>2024-05-18T08:43:09+07:00</lastmod>
   </url><url>
     <loc>/posts/</loc>
+    <lastmod>2024-05-18T08:43:09+07:00</lastmod>
+  </url><url>
+    <loc>/</loc>
     <lastmod>2024-05-18T08:43:09+07:00</lastmod>
   </url><url>
     <loc>/posts/quarkus-munity-uni/</loc>
@@ -14,16 +20,19 @@
     <loc>/posts/java-httpclient-loggin/</loc>
     <lastmod>2024-05-06T15:49:50+07:00</lastmod>
   </url><url>
-    <loc>/tags/java/</loc>
+    <loc>/tags/java-11/</loc>
     <lastmod>2024-05-06T15:49:50+07:00</lastmod>
   </url><url>
-    <loc>/tags/logging/</loc>
+    <loc>/tags/java-logging/</loc>
     <lastmod>2024-05-06T15:49:50+07:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
     <lastmod>2024-05-06T15:49:50+07:00</lastmod>
   </url><url>
     <loc>/tags/python/</loc>
+    <lastmod>2024-04-16T05:17:19+07:00</lastmod>
+  </url><url>
+    <loc>/categories/python/</loc>
     <lastmod>2024-04-16T05:17:19+07:00</lastmod>
   </url><url>
     <loc>/series/python-datatype/</loc>
@@ -56,7 +65,28 @@
     <loc>/about/</loc>
     <lastmod>2023-03-04T19:14:51+07:00</lastmod>
   </url><url>
-    <loc>/about/about/</loc>
-    <lastmod>2023-03-04T19:14:51+07:00</lastmod>
+    <loc>/search/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>/search/_index.es/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>/search/_index.fr/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>/search/_index.hi/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>/search/_index.jp/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>/search/_index.pl/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>/search/_index.ru/</loc>
+    <priority>0.1</priority>
+  </url><url>
+    <loc>/search/_index.zh-cn/</loc>
+    <priority>0.1</priority>
   </url>
 </urlset>

@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on </title>
+    <title>Tags on Tan Ho&#39;s personal website</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on </description>
+    <description>Recent content in Tags on Tan Ho&#39;s personal website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <managingEditor>user@example.com (Hugo Author)</managingEditor>
+    <webMaster>user@example.com (Hugo Author)</webMaster>
     <lastBuildDate>Mon, 06 May 2024 15:49:50 +0700</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Java</title>
-      <link>/tags/java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/java/</guid>
+      <title>Java 11</title>
+      <link>/tags/java-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/tags/java-11/</guid>
       <description></description>
     </item>
     <item>
-      <title>Logging</title>
-      <link>/tags/logging/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/tags/logging/</guid>
+      <title>Java Logging</title>
+      <link>/tags/java-logging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/tags/java-logging/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
       <link>/tags/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
       <guid>/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Living</title>
       <link>/tags/living/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
       <guid>/tags/living/</guid>
       <description></description>
     </item>
     <item>
       <title>Developer-Life</title>
       <link>/tags/developer-life/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
       <guid>/tags/developer-life/</guid>
       <description></description>
     </item>
