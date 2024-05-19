@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Tan Ho&#39;s personal website</title>
+    <title>Posts on Tan Ho</title>
     <link>/posts/</link>
-    <description>Recent content in Posts on Tan Ho&#39;s personal website</description>
+    <description>Recent content in Posts on Tan Ho</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>user@example.com (Hugo Author)</managingEditor>
@@ -15,13 +15,13 @@
       <link>/posts/quarkus-munity-uni/</link>
       <pubDate>Sat, 18 May 2024 08:43:09 +0700</pubDate><author>user@example.com (Hugo Author)</author>
       <guid>/posts/quarkus-munity-uni/</guid>
-      <description>When choosing Mutiny in Quarkus REST Scenario 1: Simple Synchronous Operation @GET @Produces(MediaType.TEXT_PLAIN) public String greeting() { return &amp;#34;Hello!&amp;#34;; } Use Case: You have a straightforward operation that completes quickly and doesn&amp;rsquo;t involve any asynchronous tasks (database queries, network calls, etc.).&#xA;Why No Uni: In this case, using Uni would introduce unnecessary complexity. You can simply return the result directly as a String.&#xA;Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType.</description>
+      <description>Scenario 1: Simple Synchronous Operation @GET @Produces(MediaType.TEXT_PLAIN) public String greeting() { return &amp;#34;Hello!&amp;#34;; } Use Case: You have a straightforward operation that completes quickly and doesn&amp;rsquo;t involve any asynchronous tasks (database queries, network calls, etc.).&#xA;Why No Uni: In this case, using Uni would introduce unnecessary complexity. You can simply return the result directly as a String.&#xA;Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType.APPLICATION_JSON) public Uni&amp;lt;MyData&amp;gt; getData() { return Uni.</description>
     </item>
     <item>
       <title>Enable Logging for Java 11 HttpClient</title>
-      <link>/posts/java-httpclient-loggin/</link>
+      <link>/posts/java-httpclient-logging/</link>
       <pubDate>Mon, 06 May 2024 15:49:50 +0700</pubDate><author>user@example.com (Hugo Author)</author>
-      <guid>/posts/java-httpclient-loggin/</guid>
+      <guid>/posts/java-httpclient-logging/</guid>
       <description>Introduction Java&amp;rsquo;s java.net.http.HttpClient (introduced in Java 11) provides a modern and standardized way to perform HTTP requests. Enabling detailed logging for this client offers invaluable insights when troubleshooting network issues, analyzing request/response behavior, and optimizing application performance.&#xA;To enable the log, add this JVM option -Djdk.httpclient.HttpClient.log=errors,requests when staring your application.&#xA;Code example I use this library as a client to call OpenAI API, the library uses httpclient for making http request.</description>
     </item>
     <item>
@@ -50,7 +50,7 @@
       <link>/posts/start-to-write/</link>
       <pubDate>Sat, 18 Mar 2023 15:11:53 +0700</pubDate><author>user@example.com (Hugo Author)</author>
       <guid>/posts/start-to-write/</guid>
-      <description>I am not proficient in language, including my native Vietnamse, so even after years of learning English, I am still struggling to master it.&#xA;No, the above paragraph is not my orignial one. It&amp;rsquo;s the version from ChatGPT.&#xA;And my second one as well.&#xA;And &amp;hellip;&#xA;But they doesn&amp;rsquo;t matter though, what matters now is that I have decided to start to write a blog.&#xA;And yes, you should probably know why.</description>
+      <description>I am not proficient in language, including my native Vietnamese, so even after years of learning English, I am still struggling to master it.&#xA;No, the above paragraph is not my original one. It&amp;rsquo;s the version from ChatGPT.&#xA;And my second one as well.&#xA;And &amp;hellip;&#xA;But they don&amp;rsquo;t matter though, what matters now is that I have decided to start to write a blog.&#xA;And yes, you should probably know why.</description>
     </item>
   </channel>
 </rss>

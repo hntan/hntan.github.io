@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Airbyte on Tan Ho</title>
+    <link>/tags/airbyte/</link>
+    <description>Recent content in Airbyte on Tan Ho</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>user@example.com (Hugo Author)</managingEditor>
+    <webMaster>user@example.com (Hugo Author)</webMaster>
+    <lastBuildDate>Sun, 19 Mar 2023 15:11:55 +0700</lastBuildDate>
+    <atom:link href="/tags/airbyte/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First open-source contribution</title>
+      <link>/posts/first-open-source-contribution/</link>
+      <pubDate>Sun, 19 Mar 2023 15:11:55 +0700</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/posts/first-open-source-contribution/</guid>
+      <description>Motivation First contribution to an open-source is the significant milestone in my journey as a software engineer, it&amp;rsquo;s a great way to learn and give back to the community.&#xA;I&amp;rsquo;m currently working for Gridly, which is a content management and localization system. Gridly has a feature called Connector and it uses Airbyte internally for syncing data from other sources to Gridly.&#xA;Airbyte Gridly connector So, I decided to write Gridly as a source connector to sync data to other destinations.</description>
+    </item>
+  </channel>
+</rss>

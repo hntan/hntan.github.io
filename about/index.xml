@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>About on Tan Ho&#39;s personal website</title>
-    <link>/about/</link>
-    <description>Recent content in About on Tan Ho&#39;s personal website</description>
+    <title>About on Tan Ho</title>
+    <link>//localhost:1313/about/</link>
+    <description>Recent content in About on Tan Ho</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>user@example.com (Hugo Author)</managingEditor>
     <webMaster>user@example.com (Hugo Author)</webMaster>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 19:14:51 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>//localhost:1313/about/about/</link>
+      <pubDate>Sat, 04 Mar 2023 19:14:51 +0700</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>//localhost:1313/about/about/</guid>
+      <description>Hello, my name is Tan Ho, and I&amp;rsquo;m a Senior Java Backend Developer at Gridly based in Ho Chi Minh City, Vietnam. I&amp;rsquo;m also a proud husband and father of two.</description>
+    </item>
   </channel>
 </rss>

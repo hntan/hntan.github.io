@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
 <head>
-  <title>When choosing Mutiny in Quarkus REST :: Tan Ho&#39;s personal website - Example site for hugo-theme-tailwind</title>
+  <title>When choosing Mutiny in Quarkus REST :: Tan Ho - Example site for hugo-theme-tailwind</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="When choosing Mutiny in Quarkus REST Scenario 1: Simple Synchronous Operation @GET @Produces(MediaType.TEXT_PLAIN) public String greeting() { return &amp;#34;Hello!&amp;#34;; } Use Case: You have a straightforward operation that completes quickly and doesn&amp;rsquo;t involve any asynchronous tasks (database queries, network calls, etc.).
+  content="Scenario 1: Simple Synchronous Operation @GET @Produces(MediaType.TEXT_PLAIN) public String greeting() { return &amp;#34;Hello!&amp;#34;; } Use Case: You have a straightforward operation that completes quickly and doesn&amp;rsquo;t involve any asynchronous tasks (database queries, network calls, etc.).
 Why No Uni: In this case, using Uni would introduce unnecessary complexity. You can simply return the result directly as a String.
-Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType."
+Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType.APPLICATION_JSON) public Uni&amp;lt;MyData&amp;gt; getData() { return Uni."
 />
 <meta
   name="keywords"
@@ -17,11 +17,11 @@ Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType
 />
 <meta name="robots" content="noodp" />
 <meta property="og:url" content="/posts/quarkus-munity-uni/">
-  <meta property="og:site_name" content="Tan Ho&#39;s personal website">
+  <meta property="og:site_name" content="Tan Ho">
   <meta property="og:title" content="When choosing Mutiny in Quarkus REST">
-  <meta property="og:description" content="When choosing Mutiny in Quarkus REST Scenario 1: Simple Synchronous Operation @GET @Produces(MediaType.TEXT_PLAIN) public String greeting() { return &#34;Hello!&#34;; } Use Case: You have a straightforward operation that completes quickly and doesn’t involve any asynchronous tasks (database queries, network calls, etc.).
+  <meta property="og:description" content="Scenario 1: Simple Synchronous Operation @GET @Produces(MediaType.TEXT_PLAIN) public String greeting() { return &#34;Hello!&#34;; } Use Case: You have a straightforward operation that completes quickly and doesn’t involve any asynchronous tasks (database queries, network calls, etc.).
 Why No Uni: In this case, using Uni would introduce unnecessary complexity. You can simply return the result directly as a String.
-Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType.">
+Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType.APPLICATION_JSON) public Uni&lt;MyData&gt; getData() { return Uni.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -31,9 +31,9 @@ Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="When choosing Mutiny in Quarkus REST">
-  <meta name="twitter:description" content="When choosing Mutiny in Quarkus REST Scenario 1: Simple Synchronous Operation @GET @Produces(MediaType.TEXT_PLAIN) public String greeting() { return &#34;Hello!&#34;; } Use Case: You have a straightforward operation that completes quickly and doesn’t involve any asynchronous tasks (database queries, network calls, etc.).
+  <meta name="twitter:description" content="Scenario 1: Simple Synchronous Operation @GET @Produces(MediaType.TEXT_PLAIN) public String greeting() { return &#34;Hello!&#34;; } Use Case: You have a straightforward operation that completes quickly and doesn’t involve any asynchronous tasks (database queries, network calls, etc.).
 Why No Uni: In this case, using Uni would introduce unnecessary complexity. You can simply return the result directly as a String.
-Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType.">
+Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType.APPLICATION_JSON) public Uni&lt;MyData&gt; getData() { return Uni.">
 
 
 <link rel="canonical" href="/posts/quarkus-munity-uni/" />
@@ -224,29 +224,9 @@ Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType
 
 
       
-        
-        <section class="prose prose-slate dark:prose-invert w-full max-w-4xl lg:max-w-5xl mt-6">
-          <h2>Table of Contents</h2>
-          <aside><nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#scenario-1-simple-synchronous-operation">Scenario 1: Simple Synchronous Operation</a></li>
-        <li><a href="#scenario-2-asynchronous-operation-with-a-single-result">Scenario 2: Asynchronous Operation with a Single Result</a></li>
-        <li><a href="#scenario-3-asynchronous-operation-with-multiple-results">Scenario 3: Asynchronous Operation with Multiple Results</a></li>
-        <li><a href="#scenario-4-fire-and-forget-operation">Scenario 4: Fire-and-Forget Operation</a></li>
-        <li><a href="#key-points">Key Points:</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav></aside>
-        </section>
-        
-      
 
       <article class="mt-6 w-full max-w-4xl lg:max-w-5xl prose prose-slate dark:prose-invert prose-quoteless post-content">
-        <h1 id="when-choosing-mutiny-in-quarkus-rest">When choosing Mutiny in Quarkus REST</h1>
-<h3 id="scenario-1-simple-synchronous-operation">Scenario 1: Simple Synchronous Operation</h3>
+        <h3 id="scenario-1-simple-synchronous-operation">Scenario 1: Simple Synchronous Operation</h3>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a6e22e">@GET</span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">@Produces</span>(MediaType.<span style="color:#a6e22e">TEXT_PLAIN</span>)
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">greeting</span>() {
@@ -318,8 +298,8 @@ Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType
     const dataset = {
         repo: 'hntan\/hntan.github.io',
         repoId: '167350460',
-        category: 'General',
-        categoryId: '41801912',
+        category: 'Comments',
+        categoryId: '41802141',
         mapping: 'pathname',
         reactionsEnabled: '1',
         emitMetadata: '0',
