@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Logging on </title>
+    <link>/tags/logging/</link>
+    <description>Recent content in Logging on </description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 May 2024 15:49:50 +0700</lastBuildDate>
+    <atom:link href="/tags/logging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enable Logging for Java 11 HttpClient</title>
+      <link>/posts/java-httpclient-loggin/</link>
+      <pubDate>Mon, 06 May 2024 15:49:50 +0700</pubDate>
+      <guid>/posts/java-httpclient-loggin/</guid>
+      <description>Introduction Java&amp;rsquo;s java.net.http.HttpClient (introduced in Java 11) provides a modern and standardized way to perform HTTP requests. Enabling detailed logging for this client offers invaluable insights when troubleshooting network issues, analyzing request/response behavior, and optimizing application performance.&#xA;To enable the log, add this JVM option -Djdk.httpclient.HttpClient.log=errors,requests when staring your application.&#xA;Code example I use this library as a client to call OpenAI API, the library uses httpclient for making http request.</description>
+    </item>
+  </channel>
+</rss>

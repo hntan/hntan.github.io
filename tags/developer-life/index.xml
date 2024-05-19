@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>developer-life on Tan Ho</title>
+    <title>Developer-Life on </title>
     <link>/tags/developer-life/</link>
-    <description>Recent content in developer-life on Tan Ho</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Developer-Life on </description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Mar 2023 15:11:55 +0700</lastBuildDate><atom:link href="/tags/developer-life/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 15:11:55 +0700</lastBuildDate>
+    <atom:link href="/tags/developer-life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First open-source contribution</title>
       <link>/posts/first-open-source-contribution/</link>
       <pubDate>Sun, 19 Mar 2023 15:11:55 +0700</pubDate>
-      
       <guid>/posts/first-open-source-contribution/</guid>
-      <description>Motivation First contribution to an open-source is the significant milestone in my journey as a software engineer, it&amp;rsquo;s a great way to learn and give back to the community.
-I&amp;rsquo;m currently working for Gridly, which is a content management and localization system. Gridly has a feature called Connector and it uses Airbyte internally for syncing data from other sources to Gridly.
-Airbyte Gridly connector So, I decided to write Gridly as a source connector to sync data to other destinations.</description>
+      <description>Motivation First contribution to an open-source is the significant milestone in my journey as a software engineer, it&amp;rsquo;s a great way to learn and give back to the community.&#xA;I&amp;rsquo;m currently working for Gridly, which is a content management and localization system. Gridly has a feature called Connector and it uses Airbyte internally for syncing data from other sources to Gridly.&#xA;Airbyte Gridly connector So, I decided to write Gridly as a source connector to sync data to other destinations.</description>
     </item>
-    
     <item>
       <title>Start to write</title>
       <link>/posts/start-to-write/</link>
       <pubDate>Sat, 18 Mar 2023 15:11:53 +0700</pubDate>
-      
       <guid>/posts/start-to-write/</guid>
-      <description>I am not proficient in language, including my native Vietnamse, so even after years of learning English, I am still struggling to master it.
-No, the above paragraph is not my orignial one. It&amp;rsquo;s the version from ChatGPT.
-And my second one as well.
-And &amp;hellip;
-But they doesn&amp;rsquo;t matter though, what matters now is that I have decided to start to write a blog.
-And yes, you should probably know why.</description>
+      <description>I am not proficient in language, including my native Vietnamse, so even after years of learning English, I am still struggling to master it.&#xA;No, the above paragraph is not my orignial one. It&amp;rsquo;s the version from ChatGPT.&#xA;And my second one as well.&#xA;And &amp;hellip;&#xA;But they doesn&amp;rsquo;t matter though, what matters now is that I have decided to start to write a blog.&#xA;And yes, you should probably know why.</description>
     </item>
-    
   </channel>
 </rss>
