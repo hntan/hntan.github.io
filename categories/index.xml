@@ -24,5 +24,12 @@
       <guid>/categories/python/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Dev&#39;s Life</title>
+      <link>/categories/devs-life/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/categories/devs-life/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

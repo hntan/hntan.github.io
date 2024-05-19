@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quarkus on Tan Ho</title>
+    <link>/tags/quarkus/</link>
+    <description>Recent content in Quarkus on Tan Ho</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>user@example.com (Hugo Author)</managingEditor>
+    <webMaster>user@example.com (Hugo Author)</webMaster>
+    <lastBuildDate>Sat, 18 May 2024 08:43:09 +0700</lastBuildDate>
+    <atom:link href="/tags/quarkus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When choosing Mutiny in Quarkus REST</title>
+      <link>/posts/quarkus-munity-uni/</link>
+      <pubDate>Sat, 18 May 2024 08:43:09 +0700</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/posts/quarkus-munity-uni/</guid>
+      <description>Scenario 1: Simple Synchronous Operation @GET @Produces(MediaType.TEXT_PLAIN) public String greeting() { return &amp;#34;Hello!&amp;#34;; } Use Case: You have a straightforward operation that completes quickly and doesn&amp;rsquo;t involve any asynchronous tasks (database queries, network calls, etc.).&#xA;Why No Uni: In this case, using Uni would introduce unnecessary complexity. You can simply return the result directly as a String.&#xA;Scenario 2: Asynchronous Operation with a Single Result @GET @Produces(MediaType.APPLICATION_JSON) public Uni&amp;lt;MyData&amp;gt; getData() { return Uni.</description>
+    </item>
+  </channel>
+</rss>

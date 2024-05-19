@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dev&#39;s Life on Tan Ho</title>
+    <link>/categories/devs-life/</link>
+    <description>Recent content in Dev&#39;s Life on Tan Ho</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>user@example.com (Hugo Author)</managingEditor>
+    <webMaster>user@example.com (Hugo Author)</webMaster>
+    <lastBuildDate>Fri, 09 Jun 2023 15:11:53 +0700</lastBuildDate>
+    <atom:link href="/categories/devs-life/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Two worth living places in Vietnam</title>
+      <link>/posts/worth-living-place-vn/</link>
+      <pubDate>Fri, 09 Jun 2023 15:11:53 +0700</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/posts/worth-living-place-vn/</guid>
+      <description>When considering where to live in Vietnam, it is important to define what makes a place &amp;ldquo;worth living&amp;rdquo;. Nowadays, remote work is more feasible, especially for software programmers like me. So for me, a worth living place is one that is easy to get around, affordable for living, and offers plenty of opportunities to immerse oneself in nature.&#xA;Criteria Walking condition If you love to walk, Vietnam can be challenging place to live.</description>
+    </item>
+    <item>
+      <title>First open-source contribution</title>
+      <link>/posts/first-open-source-contribution/</link>
+      <pubDate>Sun, 19 Mar 2023 15:11:55 +0700</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/posts/first-open-source-contribution/</guid>
+      <description>Motivation First contribution to an open-source is the significant milestone in my journey as a software engineer, it&amp;rsquo;s a great way to learn and give back to the community.&#xA;I&amp;rsquo;m currently working for Gridly, which is a content management and localization system. Gridly has a feature called Connector and it uses Airbyte internally for syncing data from other sources to Gridly.&#xA;Airbyte Gridly connector So, I decided to write Gridly as a source connector to sync data to other destinations.</description>
+    </item>
+    <item>
+      <title>Start to write</title>
+      <link>/posts/start-to-write/</link>
+      <pubDate>Sat, 18 Mar 2023 15:11:53 +0700</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/posts/start-to-write/</guid>
+      <description>Language learning has always been a challenge for me, even with my native Vietnamese. Despite years of studying English, I still find myself working hard to improve.&#xA;No, the paragraph above is not my original one. It&amp;rsquo;s the version from Gemini.&#xA;And my second one as well.&#xA;And &amp;hellip;&#xA;But that doesn&amp;rsquo;t matter now. I&amp;rsquo;ve decided to start a blog to practice my writing. As a software engineer, I believe it will help me deepen my technical knowledge and build a personal portfolio.</description>
+    </item>
+  </channel>
+</rss>

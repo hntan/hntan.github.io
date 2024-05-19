@@ -8,8 +8,36 @@
     <language>en-us</language>
     <managingEditor>user@example.com (Hugo Author)</managingEditor>
     <webMaster>user@example.com (Hugo Author)</webMaster>
-    <lastBuildDate>Mon, 06 May 2024 15:49:50 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 18 May 2024 08:43:09 +0700</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>/tags/java/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mutiny</title>
+      <link>/tags/mutiny/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/tags/mutiny/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Quarkus</title>
+      <link>/tags/quarkus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/tags/quarkus/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Reactive</title>
+      <link>/tags/reactive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/tags/reactive/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Java 11</title>
       <link>/tags/java-11/</link>
@@ -39,6 +67,13 @@
       <description></description>
     </item>
     <item>
+      <title>Remote</title>
+      <link>/tags/remote/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/tags/remote/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Thought</title>
       <link>/tags/thought/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
@@ -57,6 +92,13 @@
       <link>/tags/open-sources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
       <guid>/tags/open-sources/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Write</title>
+      <link>/tags/write/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/tags/write/</guid>
       <description></description>
     </item>
   </channel>
