@@ -60,6 +60,13 @@
       <description>Currently, I works as a full-time employee for Gridly. I&amp;rsquo;m not available for a new opportunity right now. But for my long-term plan, I would love to have a remote job. In case you have one and want to hire me, please check my Linkedin &amp;rsquo;s profile, and my cv .</description>
     </item>
     <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Sat, 04 Mar 2023 19:14:51 +0700</pubDate><author>user@example.com (Hugo Author)</author>
+      <guid>/about/</guid>
+      <description>Hello, my name is Tan Ho, and I&amp;rsquo;m a Senior Java Backend Developer at Gridly based in Ho Chi Minh City, Vietnam. I&amp;rsquo;m also a proud husband and father of two.</description>
+    </item>
+    <item>
       <title></title>
       <link>/search/_index.es/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>user@example.com (Hugo Author)</author>
